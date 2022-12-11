@@ -1,0 +1,26 @@
+import React from 'react';
+import Contact from '../../ContactForm/Contact';
+import AllProjects from '../Projects/ALLProjects/AllProjects';
+import Project from '../Projects/Project';
+import Self from '../Self/Self';
+const Home = () => {
+    return (
+        <div>
+       <div className='w-3/4 mx-auto mt-8'>
+       <Self></Self>
+       </div>
+       <div className='mt-52'>
+        <h2 className='text-5xl text-green-600 font-semibold lg:ml-32 mt-12'>Featured Projects</h2>
+        <AllProjects></AllProjects>
+       </div>
+       <div>
+       <h2 className='text-5xl text-green-600 my-8 text-center'>Contact Me!</h2>
+       
+       <Contact></Contact>
+       </div>
+       
+        </div>
+    );
+};
+
+export default Home;
