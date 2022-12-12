@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { TypeAnimation } from "react-type-animation";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Self = () => {
+    useEffect(() => {
+        AOS.init();
+      }, [])
   return (
-    <div className="">
+    <div data-aos="fade-right" data-aos-duration="3000" className="">
       <div>
         <h1 className="text-green-600 text-2xl my-8">HI! This is </h1>
         <span className="text-white text-3xl font-semibold ">

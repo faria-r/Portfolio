@@ -6,7 +6,7 @@ import Self from '../Self/Self';
 const Home = () => {
     return (
         <div>
-       <div className='w-3/4 mx-auto mt-8'>
+       <div  className='w-3/4 mx-auto mt-8'>
        <Self></Self>
        </div>
        <div className='mt-52'>
