@@ -17,14 +17,14 @@ const Contact = () => {
         });
     };
     return (
-        <div id='contact' className='text-center p-6 bg-slate-400 w-96 mx-auto rounded-lg mb-8 text-black'>
+        <div id='contact' className='text-center  p-6 bg-slate-400 w-96 mx-auto rounded-lg mb-16 text-black'>
            <form  ref={form} onSubmit={sendEmail}>
       <label>Name</label>
       <input className='ml-12 mb-6 bg-slate-100 rounded p-3' type="text" name="user_name" /> <br />
       <label>Email</label>
       <input className='ml-12 mb-6 bg-slate-100 rounded p-3' type="email" name="user_email" /> <br />
 
-      <textarea name="message" placeholder='write Your message Here' className=' ml-16 mb-6 bg-slate-100 rounded p-3 text-black'/> <br />
+      <textarea name="message" placeholder='write Your message Here' className=' ml-24 mb-6 w-48 mx-auto bg-slate-100 rounded p-3 text-black'/> <br />
       <input className='ml-12 mb-6 bg-green-600 rounded px-6 py-2' type="submit" value="Send" />
     </form>
     {

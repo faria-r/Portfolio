@@ -1,11 +1,12 @@
 import React, { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from "react-router-dom";
 const Project = ({project}) => {
   useEffect(() => {
     AOS.init();
   }, [])
-    const {image,name,about,Technology} = project;
+    const {id,image,name,about} = project;
   return (
     <div data-aos="fade-up"
     data-aos-anchor-placement="center-bottom"data-aos-duration="2000" className="relative mt-32">
@@ -14,13 +15,18 @@ const Project = ({project}) => {
           <img src={image} alt="car!" />
         </figure>
       </div>
-      <div className="lg:absolute lg:top-4 lg:left-[750px]  card lg:w-[450px] sm:mx-auto lg:mr-[450px] my-16 bg-gray-600">
+      <div className="lg:absolute lg:top-16 lg:left-[750px] card lg:w-[550px] sm:mx-auto lg:mr-[450px] my-12 bg-gray-600">
         <div className="card-body text-white">
             <p className="text-2xl text-green-600">{name}</p>
           <p>{about}</p>
-          <p className="text-2xl text-green-600">Technology: {Technology}</p>
-        </div>
+          <Link to={`/details/${id}`}>
+        <button className="btn border border-green-600">
+         Details
+        </button>
+      </Link>
+        </div> 
       </div>
+     
     </div>
   );
 };

@@ -3,8 +3,8 @@ import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const Social = () => {
     return (
-        <div>
-            <div className="left-0">
+        <div className=' hidden  lg:block'>
+            <div className="lg:left-0">
         <ul className="steps steps-vertical ">
           <li className="step ">
             <FaGithub className="text-2xl"></FaGithub>

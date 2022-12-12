@@ -1,16 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import Project from '../Project';
 
+
+
 const AllProjects = () => {
     const [projects,setProjects] = useState([]);
     useEffect(()=>{
-        fetch('Projects.json')
+        fetch('details.json')
         .then(res => res.json())
         .then(data => {
-            console.log(data)
+            console.log(data,'all')
             setProjects(data)
         })
-    },[])
+    },[projects])
     return (
         <div>
             {
@@ -19,6 +21,8 @@ const AllProjects = () => {
                 project={project}
                 ></Project>)
             }
+           
+            
         </div>
     );
 };
