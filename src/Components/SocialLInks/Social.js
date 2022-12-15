@@ -7,16 +7,16 @@ const Social = () => {
             <div className="lg:left-0">
         <ul className="steps steps-vertical ">
           <li className="step ">
-            <FaGithub className="text-2xl"></FaGithub>
+          <a href="https://github.com/faria-r" target='_blank' rel='noreferrer'>  <FaGithub className="text-2xl"></FaGithub></a>
           </li>
           <li className="step ">
-            <FaLinkedin className="text-2xl"></FaLinkedin>
+          <a href="https://www.linkedin.com/in/faria-r/" target='_blank' rel='noreferrer'>  <FaLinkedin className="text-2xl"></FaLinkedin></a>  
           </li>
           <li className="step ">
-            <FaFacebook className="text-2xl"></FaFacebook>
+          <a href="https://web.facebook.com/faria.frb/" target='_blank' rel='noreferrer'>  <FaFacebook className="text-2xl"></FaFacebook></a> 
           </li>
           <li className="step">
-            <FaTwitter className="text-2xl"></FaTwitter>
+          <a href="https://twitter.com/FariaR20" target='_blank' rel='noreferrer'>  <FaTwitter className="text-2xl"></FaTwitter></a> 
           </li>
         </ul>
       </div>
