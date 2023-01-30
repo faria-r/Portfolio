@@ -12,7 +12,7 @@ const AllProjects = () => {
             console.log(data,'all')
             setProjects(data)
         })
-    },[projects])
+    },[])
     return (
         <div>
             {

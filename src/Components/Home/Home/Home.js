@@ -18,7 +18,7 @@ const Home = () => {
         <About></About>
        </div>
        <div className='mb-16'>
-       <h2 className='text-5xl text-green-600 my-8 text-center'>Contact Me!</h2>
+       <h2 className='text-5xl text-green-600 my-8 text-center'>Get In Touch!</h2>
        <Contact></Contact>
        </div>
        

@@ -1,37 +1,91 @@
-import React, { useRef, useState } from 'react';
-import emailjs from '@emailjs/browser';
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
+import contactImg from "../../assets/img/j.png";
+// ES6 Modules or TypeScript
+import Swal from 'sweetalert2'
+
+
 const Contact = () => {
-    const[success,setSuccess] = useState(false)
-    const form = useRef();
+  const [success, setSuccess] = useState(false);
+  const [error, setError] = useState(false);
+  const form = useRef();
 
-    const sendEmail = (e) => {
-      e.preventDefault();
-  
-      emailjs.sendForm('service_c0l0kvy', 'template_q9b0j7h', form.current, 'f7DbGE6cypVK4qFTX')
-        .then((result) => {
-            console.log(result.text);
-            setSuccess(true)
-            e.target.reset()
-        }, (error) => {
-            console.log(error.text);
-        });
-    };
-    return (
-        <div id='contact' className='text-center  p-6 bg-slate-400 w-96 mx-auto rounded-lg mb-16 text-black'>
-           <form  ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
-      <input className='ml-12 mb-6 bg-slate-100 rounded p-3' type="text" name="user_name" /> <br />
-      <label>Email</label>
-      <input className='ml-12 mb-6 bg-slate-100 rounded p-3' type="email" name="user_email" /> <br />
+  // CommonJS
+const Swal = require('sweetalert2')
 
-      <textarea name="message" placeholder='write Your message Here' className=' ml-24 mb-6 w-48 mx-auto bg-slate-100 rounded p-3 text-black'/> <br />
-      <input className='ml-12 mb-6 bg-green-600 rounded px-6 py-2' type="submit" value="Send" />
-    </form>
-    {
-        success && <p className='text-green-600 text-xl'>Email Sent SuccessFully!</p>
-    }
-        </div>
-    );
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_c0l0kvy",
+        "template_q9b0j7h",
+        form.current,
+        "NRLSLkx2tvgeG0rVL"
+      )
+      .then(
+        (result) => {
+            Swal.fire(
+                'Sent!',
+                'Your Email is Sent!',
+                'success'
+              )
+          setSuccess(true);
+          e.target.reset();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+  return (
+    <div className="flex justify-between items-center w-[80vw] mx-auto">
+      <div className="w-[550px] mx-auto ">
+        <img  src={contactImg} />
+      </div>
+      <div
+        id="contact"
+        className="text-center p-6 bg-slate-400 mx-auto mt-24 rounded-lg mb-16 text-black"
+      >
+        <form ref={form} onSubmit={sendEmail}>
+          <div className="grid grid-cols-2 gap-3">
+            <div>
+              <input
+                className=" mb-6 bg-slate-100 rounded-2xl p-3"
+                placeholder="Your Name"
+                type="text"
+                name="user_name"
+              />{" "}
+              <br />
+            </div>
+            <div>
+              <input
+                className=" mb-6 bg-slate-100 rounded-2xl p-3"
+                type="email"
+                placeholder="Your Email"
+                name="user_email"
+              />{" "}
+              <br />
+            </div>
+          </div>
+          <textarea
+            name="message"
+            placeholder="Write Your message Here"
+            className=" mb-6 w-full mx-auto bg-slate-100 rounded-2xl p-3 text-black"
+          />{" "}
+          <br />
+          <button className="mb-6 bg-green-600 rounded px-6 py-2"
+            type="submit">Send</button>
+            
+            
+        
+        </form>
+        {error && (
+          <p className="text-red-600 text-xl">Message Not Sent</p>
+        )}
+      </div>
+    </div>
+  );
 };
 
 export default Contact;

@@ -9,7 +9,7 @@ const Main = () => {
         <div>
             <Navbar></Navbar>
            <div>
-            <div className='lg:fixed mt-0 lg:mt-64'>
+            <div className='lg:fixed mt-0 bottom-0'>
 <Social></Social>
             </div>
             <Outlet></Outlet>

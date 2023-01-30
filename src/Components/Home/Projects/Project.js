@@ -9,7 +9,7 @@ const Project = ({project}) => {
     const {id,image,name,about} = project;
   return (
     <div data-aos="fade-up"
-    data-aos-anchor-placement="center-bottom"data-aos-duration="2000" className="relative mt-32">
+    data-aos-anchor-placement="center-bottom"data-aos-duration="2000" className="relative mt-32 overflow-hidden">
       <div className="card shadow-2xl shadow-green-400 lg:w-[650px] sm:mx-auto lg:mr-[450px] my-16 glass">
         <figure className="h-96">
           <img src={image} alt="car!" />
