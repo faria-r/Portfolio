@@ -2,7 +2,7 @@
     
     "id": "6394ab71a00b2ce432b2db47",
     "name": "Beats To Read",
-    "about": "User can Participate in Quizes on different Topics(developed using ReactJS).User can get confirmation weather their answers were right or Wrong.(using JS).User can know the correct answer if their given answer is wrong",
+    "about": "User can Buy Books only from verified seller(developed using ReactJS).User can pay through Master Card, visa Card etc.(International Payment Gateway).Admin can Delete, Verify any Seller or buyer.",
     "image": [
         "https://i.ibb.co/M6xqtyY/Screenshot-34.png",
         "https://i.ibb.co/tPqKmYC/Screenshot-35.png",
