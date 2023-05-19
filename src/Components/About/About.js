@@ -26,7 +26,7 @@ const About = () => {
         </ul>
       </div>  */}
 
-      <div className='border relative h-auto p-8'>
+      <div className='relative h-auto p-8'>
       <Cards></Cards>
       <div className='absolute top-24 left-48'>
       <Skills></Skills>

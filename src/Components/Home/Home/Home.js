@@ -18,7 +18,7 @@ const Home = () => {
        <div className='mt-64'>
         <About></About>
        </div>
-       <div className='mb-16 mt-24'>
+       <div className='mb-16 mt-48'>
        <h2 className='text-5xl text-green-600 my-8 text-center'>Get In Touch!</h2>
        <Contact></Contact>
        </div>
