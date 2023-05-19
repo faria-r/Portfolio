@@ -51,6 +51,7 @@ const Swal = require('sweetalert2')
           <div className="grid grid-cols-1 lg:grid-cols-2  gap-3">
             <div>
               <input
+              required={true}
                 className=" mb-6 bg-slate-100 rounded-2xl p-3"
                 placeholder="Your Name"
                 type="text"
@@ -60,6 +61,7 @@ const Swal = require('sweetalert2')
             </div>
             <div>
               <input
+               required={true}
                 className=" mb-6 bg-slate-100 rounded-2xl p-3"
                 type="email"
                 placeholder="Your Email"
@@ -69,6 +71,7 @@ const Swal = require('sweetalert2')
             </div>
           </div>
           <textarea
+           required={true}
             name="message"
             placeholder="Write Your message Here"
             className=" mb-6 w-full mx-auto bg-slate-100 rounded-2xl p-3 text-black"
