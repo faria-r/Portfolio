@@ -39,8 +39,8 @@ const Swal = require('sweetalert2')
       );
   };
   return (
-    <div className="flex justify-between items-center w-[80vw] mx-auto">
-      <div className="w-[550px] mx-auto ">
+    <div className="sm:flex-col lg:flex-row  justify-between items-center w-[80vw] mx-auto">
+      <div className=" w-auto lg:w-[550px] mx-auto ">
         <img  src={contactImg} />
       </div>
       <div
@@ -48,7 +48,7 @@ const Swal = require('sweetalert2')
         className="text-center p-6 bg-slate-400 mx-auto mt-24 rounded-lg mb-16 text-black"
       >
         <form ref={form} onSubmit={sendEmail}>
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 lg:grid-cols-2  gap-3">
             <div>
               <input
                 className=" mb-6 bg-slate-100 rounded-2xl p-3"
