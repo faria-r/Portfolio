@@ -73,7 +73,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <a href={resumefile} download={resumefile}>
-            <button className="mr-16 btn border border-green-600">
+            <button className="lg:mr-16 btn border border-green-600">
               Resume
             </button>
           </a>
