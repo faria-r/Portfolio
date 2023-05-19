@@ -11,7 +11,7 @@ import style from './style/animation.css'
 const Skills = () => {
     return (
         <div>
-        <div className="card mx-auto h-48 lg:w-96 bg-white shadow-xl mt-24 image-full sm:-rotate-[15deg] -rotate-[19deg]">
+        <div className="card mx-auto h-48 lg:w-96 bg-white shadow-xl mt-24 image-full sm:-rotate-[15deg] lg:-rotate-[19deg]">
 
 <div className="card-body grid grid-cols-4 gap-3">
 <div className='rounded-full'>
