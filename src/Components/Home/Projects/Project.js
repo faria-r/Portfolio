@@ -14,12 +14,12 @@ const Project = ({ project }) => {
       data-aos-duration="2000"
       className="relative mt-32 overflow-hidden"
     >
-      <div className="card shadow-2xl shadow-green-400 lg:w-[650px] sm:mx-auto lg:mr-[450px] my-16 glass">
+      <div className="card shadow shadow-green-400 lg:w-[650px] sm:mx-auto lg:mr-[450px] my-16 glass">
         <figure className="h-96">
           <img src={image} className='' alt="project!" />
         </figure>
       </div>
-      <div className="lg:absolute lg:top-16 lg:left-[60%] card lg:w-[39%] sm:mx-auto lg:mr-[450px] my-12 bg-gray-600">
+      <div className="lg:absolute lg:top-20 lg:left-[60%] card lg:w-[39%] sm:mx-auto lg:mr-[450px] my-12 bg-gray-600">
         <div className="card-body text-white">
           <p className="text-2xl text-green-600">{name}</p>
           <p>{about}</p>
