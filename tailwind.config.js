@@ -5,8 +5,13 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    clipPath: {
+      mypolygon: "polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%)",
   },
-  plugins: [require("daisyui")],
+  },
+  plugins: [require("daisyui"),
+  require('tailwind-clip-path'),
+],
   daisyui: {
     themes: ["cupcake", "dark", "cmyk"],
   },

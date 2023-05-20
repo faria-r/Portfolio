@@ -45,9 +45,15 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-2xl ml-8 text-green-600">
+          {/* <a className="btn btn-ghost normal-case text-2xl ml-8 text-green-600">
             Faria Rahman
+          </a> */}
+
+          <div className="clip-path-mypolygon px-6 py-2 ml-8 border-green-700 border-4 text-center">
+          <a className="text-center text-3xl font-mono font-bold  text-green-600">
+            F
           </a>
+          </div>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
