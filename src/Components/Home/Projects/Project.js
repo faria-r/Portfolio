@@ -19,7 +19,9 @@ const Project = ({ project }) => {
           <img src={image} className='' alt="project!" />
         </figure>
       </div>
-      <div className="lg:absolute lg:top-20 lg:left-[60%] card lg:w-[39%] sm:mx-auto lg:mr-[450px] my-12 ">
+      <div data-aos="fade-right"
+      data-aos-anchor-placement="center-bottom"
+      data-aos-duration="2000" className="lg:absolute lg:top-20 lg:left-[60%] card lg:w-[39%] sm:mx-auto lg:mr-[450px] my-12 ">
         <div className="card-body text-white">
           <p className="text-2xl text-green-600 text-end font-mono font-bold">{name}</p>
           <p className="bg-gray-600 px-4 py-6 rounded">{about}</p>

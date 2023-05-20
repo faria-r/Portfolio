@@ -12,8 +12,7 @@ const DetailedProject = ({ id }) => {
   }, [id]);
   const projectData = projects?.map((project) => project);
   const singleData = projectData[0];
-  console.log(singleData);
-  // const {ClientCode,LiveSite,ServerCode,about,name} = singleData
+
   return (
     <div>
       <div className="hero">
