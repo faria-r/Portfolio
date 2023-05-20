@@ -14,7 +14,7 @@ const Project = ({ project }) => {
       data-aos-duration="2000"
       className="relative mt-32 overflow-hidden"
     >
-      <div className="card shadow shadow-green-400 lg:w-[650px] sm:mx-auto lg:mr-[450px] my-16 glass">
+      <div className="card bg-green-900 shadow shadow-green-400 lg:w-[650px] sm:mx-auto lg:mr-[450px] my-16">
         <figure className="h-96">
           <img src={image} className='' alt="project!" />
         </figure>
