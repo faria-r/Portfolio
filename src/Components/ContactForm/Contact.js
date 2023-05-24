@@ -39,11 +39,11 @@ const Swal = require('sweetalert2')
       );
   };
   return (
-    <div className="lg:flex-row sm:flex-col-reverse sm:flex  justify-between items-center w-[80vw] mx-auto">
+    <div className="lg:flex-row sm:flex-col-reverse sm:flex  justify-between items-center w-[80vw] mx-auto px-8 rounded">
       <div data-aos="fade-right"
       data-aos-anchor-placement="center-bottom"
       data-aos-duration="2000" className=" w-auto lg:w-[550px] mx-auto ">
-        <img  src={contactImg} />
+        <img  src={contactImg}  />
       </div>
       <div data-aos="fade-left"
       data-aos-anchor-placement="center-bottom"

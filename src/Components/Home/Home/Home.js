@@ -5,6 +5,7 @@ import ParticlesComp from '../../PartilcesComp/ParticlesComp';
 import AllProjects from '../Projects/ALLProjects/AllProjects';
 import Project from '../Projects/Project';
 import Self from '../Self/Self';
+import Footer from '../../Footer/Footer';
 const Home = () => {
     return (
         <div className='overflow-hidden'>
@@ -18,9 +19,13 @@ const Home = () => {
        <div className='mt-64'>
         <About></About>
        </div>
-       <div className='mb-16 mt-48'>
+       <div className=' mt-48'>
        <h2 className='text-5xl text-green-600 my-8 text-center'>Get In Touch!</h2>
        <Contact></Contact>
+       </div>
+
+       <div>
+        <Footer></Footer>
        </div>
        
         </div>
