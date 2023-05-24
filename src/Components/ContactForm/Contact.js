@@ -52,11 +52,11 @@ const Swal = require('sweetalert2')
         className="text-center p-6 bg-slate-400 mx-auto mt-24 rounded-lg mb-16 text-black"
       >
         <form ref={form} onSubmit={sendEmail}>
-          <div className="grid grid-cols-1 lg:grid-cols-2  gap-3">
+          <div className="grid grid-cols-1 lg:grid-cols-2  gap-4">
             <div>
               <input
               required={true}
-                className=" mb-6 bg-slate-100 rounded-2xl p-3"
+                className=" mb-6 bg-slate-100 shadow-inner shadow-green-300 rounded-2xl p-3"
                 placeholder="Your Name"
                 type="text"
                 name="user_name"
@@ -66,7 +66,7 @@ const Swal = require('sweetalert2')
             <div>
               <input
                required={true}
-                className=" mb-6 bg-slate-100 rounded-2xl p-3"
+                className=" mb-6 bg-slate-100 shadow-inner shadow-green-300  rounded-2xl p-3"
                 type="email"
                 placeholder="Your Email"
                 name="user_email"
@@ -78,10 +78,10 @@ const Swal = require('sweetalert2')
            required={true}
             name="message"
             placeholder="Write Your message Here"
-            className=" mb-6 w-full mx-auto bg-slate-100 rounded-2xl p-3 text-black"
+            className=" mb-6 w-full mx-auto bg-slate-100 shadow-inner shadow-green-300  rounded-2xl p-3 text-black"
           />{" "}
           <br />
-          <button className="mb-6 bg-green-600 rounded px-6 py-2"
+          <button className="mb-6 bg-green-600 border border-x-white rounded px-6 py-2"
             type="submit">Send</button>
             
             
