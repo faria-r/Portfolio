@@ -5,8 +5,8 @@ import Skills from './Skills';
 const About = () => {
     return (
         <div id='about'>
-            <div className=" w-1/2 mx-auto">
-  <div className="hero-content flex-col lg:flex-row-reverse">
+            <div className=" lg:w-1/2 mx-auto">
+  <div className="hero-content  flex flex-col lg:flex-row-reverse">
    
     <div>
       <div className='inline'>

@@ -10,7 +10,7 @@ const Self = () => {
     <div  data-aos="fade-right" data-aos-duration="3000" className="">
       <div>
         <h1 className="text-green-600 text-2xl my-8">HI! This is </h1>
-        <span className="text-white text-3xl font-semibold ">
+        <span className="text-white font-sans text-3xl font-semibold ">
           <TypeAnimation
             // Same String at the start will only be typed once, initially
             sequence={[
@@ -35,7 +35,7 @@ const Self = () => {
         </h1>
       </div>
       <div>
-        <p>
+        <p className="text-xl">
           I'm a Passionate Web developer Specilaized in MERN. I'm interested in
           learning latest web technologies. Able to work well in teams as well
           as individually.Currently i am focused on building web app and full

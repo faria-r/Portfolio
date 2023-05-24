@@ -7,12 +7,12 @@ import Project from '../Projects/Project';
 import Self from '../Self/Self';
 const Home = () => {
     return (
-        <div >
+        <div className='overflow-hidden'>
        <div  className='w-3/4 mx-auto mt-8'>
        <Self></Self>
        </div>
        <div className='mt-16 lg:mt-52'>
-        <h2 className='text-5xl text-green-600 font-semibold lg:ml-32 mt-12'>Featured Projects</h2>
+        <h2 className='text-5xl text-green-600 font-semibold w-3/4 mx-auto  mt-8'>Featured Projects</h2>
         <AllProjects></AllProjects>
        </div>
        <div className='mt-64'>
