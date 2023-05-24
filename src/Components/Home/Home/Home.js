@@ -27,7 +27,12 @@ const Home = () => {
        <div>
         <Footer></Footer>
        </div>
-       
+       <div className='w-auto pb-4'>
+       <div className='flex justify-center'>
+        <span className='border-r-2 border-r-green-600 px-2 '>Copyright @ <span className='text-green-600 '>2023</span></span>
+        <span className='ml-2 '>Faria Rahman</span> 
+      </div>
+       </div>
         </div>
     );
 };
