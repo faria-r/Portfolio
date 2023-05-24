@@ -4,7 +4,7 @@ import resumefile from "../../../assets/Resume-Of-Faria-Sultana.pdf";
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-navy">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -49,7 +49,7 @@ const Navbar = () => {
             Faria Rahman
           </a> */}
 
-          <div className="clip-path-mypolygon px-6 py-2 ml-8 border-green-700 border-4 text-center">
+          <div className="clip-path-mypolygon px-6 py-2 ml-8 border-green-600 border-4 text-center">
           <a className="text-center text-3xl font-mono font-bold  text-green-600">
             F
           </a>
@@ -79,7 +79,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <a href={resumefile} download={resumefile}>
-            <button className="lg:mr-16 btn border border-green-600">
+            <button className="lg:mr-16 rounded-lg btn border bg-navy text-green-600 border-green-600">
               Resume
             </button>
           </a>

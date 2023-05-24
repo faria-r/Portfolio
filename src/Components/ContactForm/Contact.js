@@ -49,7 +49,7 @@ const Swal = require('sweetalert2')
       data-aos-anchor-placement="center-bottom"
       data-aos-duration="2000"
         id="contact"
-        className="text-center p-6 bg-slate-400 mx-auto mt-24 rounded-lg mb-16 text-black"
+        className="text-center p-6 bg-lightSlate mx-auto mt-24 rounded-lg mb-16 text-black"
       >
         <form ref={form} onSubmit={sendEmail}>
           <div className="grid grid-cols-1 lg:grid-cols-2  gap-4">

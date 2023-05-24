@@ -8,7 +8,7 @@ import Self from '../Self/Self';
 import Footer from '../../Footer/Footer';
 const Home = () => {
     return (
-        <div className='overflow-hidden'>
+        <div className='overflow-hidden bg-navy'>
        <div  className='w-3/4 mx-auto mt-8'>
        <Self></Self>
        </div>
