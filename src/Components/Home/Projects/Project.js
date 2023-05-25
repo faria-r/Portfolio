@@ -21,7 +21,7 @@ const Project = ({ project }) => {
       </div>
       <div data-aos="fade-right"
       data-aos-anchor-placement="center-bottom"
-      data-aos-duration="2000" className="lg:absolute lg:top-20 lg:left-[60%] card lg:w-auto my-12 ">
+      data-aos-duration="2000" className="lg:absolute lg:top-20 lg:left-[55%] right-16 card lg:w-[40vw] my-12 ">
         <div className="card-body text-Slate">
           <p className="text-2xl text-green-600 text-end font-mono font-bold">{name}</p>
           <p className="bg-Darknavy  px-4 py-6 rounded">{about}</p>
