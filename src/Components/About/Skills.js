@@ -13,7 +13,7 @@ const Skills = () => {
         <div data-aos="flip-left"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="3000" >
-        <div className="card mx-auto h-48 lg:w-96 bg-white shadow-xl mt-8 lg:mt-24 image-full sm:-rotate-[15deg] lg:-rotate-[19deg]">
+        <div className="bg-lightSlate rounded-lg  mx-auto h-48 lg:w-96 bg-white shadow-xl mt-8 lg:mt-24 image-full sm:-rotate-[15deg] lg:-rotate-[19deg]">
 
 <div className="card-body grid grid-cols-4 gap-3">
 <div className='rounded-full'>
