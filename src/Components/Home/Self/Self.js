@@ -7,7 +7,7 @@ const Self = () => {
         AOS.init();
       }, [])
   return (
-    <div  data-aos="fade-right" data-aos-duration="3000" className="">
+    <div  data-aos="fade-right" data-aos-duration="3000" className="min-h-[100vh]">
       <div>
         <h1 className="text-green-600 text-2xl my-8">HI! This is </h1>
         <span className="text-lightSlate font-sans text-3xl font-semibold ">
@@ -44,7 +44,7 @@ const Self = () => {
       </div>
 
       <a href="#">
-        <button className="mr-16 rounded-lg btn border bg-navy text-green-600 border-green-600 my-8">
+        <button className="mr-16 rounded-lg btn border bg-navy text-green-600 border-green-600 mt-16 mb-8">
           Hire Me
         </button>
       </a>
