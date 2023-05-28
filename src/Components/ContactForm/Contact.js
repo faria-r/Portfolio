@@ -39,24 +39,24 @@ const Swal = require('sweetalert2')
       );
   };
   return (
-    <div className="lg:flex-row sm:flex-col-reverse sm:flex  justify-between items-center w-[80vw] mx-auto px-8 rounded">
+    <div className="sm:flex sm:flex-col-reverse lg:flex-row justify-between items-center w-[90vw] mx-auto px-8 rounded">
       <div data-aos="fade-right"
       data-aos-anchor-placement="center-bottom"
-      data-aos-duration="2000" className=" w-auto lg:w-[550px] mx-auto ">
+      data-aos-duration="2000" className="mx-auto mt-4 md:w-[60vw] lg:w-[50vw] ">
         <img  src={contactImg}  />
       </div>
       <div data-aos="fade-left"
       data-aos-anchor-placement="center-bottom"
       data-aos-duration="2000"
         id="contact"
-        className="text-center p-6 bg-lightSlate mx-auto mt-24 rounded-lg mb-16 text-black"
+        className="text-center md:w-[70vw] lg:w-[50vw] p-6 bg-lightSlate mx-auto mt-24 rounded-lg mb-16 text-black"
       >
         <form ref={form} onSubmit={sendEmail}>
-          <div className="grid grid-cols-1 lg:grid-cols-2  gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6  ">
             <div>
               <input
               required={true}
-                className=" mb-6 bg-slate-100 shadow-inner shadow-green-300 rounded-2xl p-3"
+                className="  mb-6  bg-white shadow-inner shadow-green-300 rounded-2xl p-3"
                 placeholder="Your Name"
                 type="text"
                 name="user_name"
@@ -66,7 +66,7 @@ const Swal = require('sweetalert2')
             <div>
               <input
                required={true}
-                className=" mb-6 bg-slate-100 shadow-inner shadow-green-300  rounded-2xl p-3"
+                className=" mb-6 bg-white shadow-inner shadow-green-300  rounded-2xl p-3"
                 type="email"
                 placeholder="Your Email"
                 name="user_email"
@@ -74,14 +74,16 @@ const Swal = require('sweetalert2')
               <br />
             </div>
           </div>
-          <textarea
+        <div  className=" mb-2 bg-white  mx-auto  shadow-inner shadow-green-300  rounded-2xl p-2">
+        <textarea
            required={true}
             name="message"
             placeholder="Write Your message Here"
-            className=" mb-6 w-full mx-auto bg-slate-100 shadow-inner shadow-green-300  rounded-2xl p-3 text-black"
+           className="w-full"
           />{" "}
+        </div>
           <br />
-          <button className="mb-6 bg-green-600 border border-x-white rounded px-6 py-2"
+          <button className="mb-4 bg-green-600 border border-x-white rounded px-6 py-2"
             type="submit">Send</button>
             
             

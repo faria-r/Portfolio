@@ -11,6 +11,7 @@ module.exports = {
         600: "#16a34a",
         300:"#86efac"
       },
+      white:"#FFFFFF",
       lightSlate:"#ccd6f6",
       Slate:"#8892b0",
       Darknavy:"#112240",
