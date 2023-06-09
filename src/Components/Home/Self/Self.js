@@ -29,7 +29,7 @@ const Self = () => {
             repeat={Infinity} // Repeat this Animation Sequence infinitely
           />
         </span>
-        <h1 className="text-Slate text-5xl font-bold my-4">
+        <h1 className="text-Slate text-5xl font-bold my-4 multicolor text-transparent  bg-clip-text bg-gradient-to-r from-Slate to-green-600">
           {" "}
           I Build Your Dream Website{" "}
         </h1>
