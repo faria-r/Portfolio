@@ -9,7 +9,7 @@ const Self = () => {
   return (
     <div  data-aos="fade-right" data-aos-duration="3000" className="min-h-[100vh]">
       <div>
-        <h1 className="text-green-600 text-2xl my-8">HI! This is </h1>
+        <h1 className="text-teal text-2xl my-8">HI! This is </h1>
         <span className="text-lightSlate font-sans text-3xl font-semibold ">
           <TypeAnimation
             // Same String at the start will only be typed once, initially
@@ -29,7 +29,7 @@ const Self = () => {
             repeat={Infinity} // Repeat this Animation Sequence infinitely
           />
         </span>
-        <h1 className="text-Slate text-5xl font-bold my-4 multicolor text-transparent  bg-clip-text bg-gradient-to-r from-Slate to-green-600">
+        <h1 className="text-Slate text-5xl font-bold my-4 multicolor text-transparent  bg-clip-text bg-gradient-to-r from-Slate to-teal">
           {" "}
           I Build Your Dream Website{" "}
         </h1>

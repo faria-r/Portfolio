@@ -8,10 +8,12 @@ module.exports = {
     colors:{
       navy:"#0a192f",
       green:{
-        600: "#16a34a",
-        300:"#86efac"
+        300:"#5eead4",
+        600: "#5eead4",
+        300:"#5eead4"
       },
       white:"#FFFFFF",
+      teal:"#5eead4",
       lightSlate:"#ccd6f6",
       Slate:"#8892b0",
       Darknavy:"#112240",

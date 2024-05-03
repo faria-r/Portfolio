@@ -1,51 +1,53 @@
 [ {
     
     "id": "6394ab71a00b2ce432b2db47",
-    "name": "Beats To Read",
-    "about": "User can Buy Books only from verified seller(developed using ReactJS).User can pay through Master Card, visa Card etc.(International Payment Gateway).Admin can Delete, Verify any Seller or buyer.",
-    "image": [
-        "https://i.ibb.co/M6xqtyY/Screenshot-34.png",
-        "https://i.ibb.co/tPqKmYC/Screenshot-35.png",
-        "https://i.ibb.co/sqFgpPz/Screenshot-37.png",
-        "https://i.ibb.co/jwrjxjf/Screenshot-36.png",
-        "https://i.ibb.co/TbC7GpY/Screenshot-38.png",
-        "https://i.ibb.co/2vM41f2/Screenshot-39.png"
-    ],
-    "LiveSite": "https://beats-to-read.web.app/",
-    "ClientCode": "https://github.com/faria-r/Beats-To-Read",
-    "ServerCode": "https://github.com/faria-r/Beats-To-Read-ServerSide"
+    "name": "Lakefront Estates",
+    "about": "Lakefront Estates is a real estate platform. it offers seamless filtering options, empowering users to search for properties tailored to their preferences. The website also provide  email system, enabling users to communicate directly with property owners for queries or appointment requests.Admin can manage all the user and others schedules and home properties",
+    "image": "https://i.ibb.co/7XfkRJ4/Screenshot-2024-05-02-232910.png",
+    "Link": "https://lakefront-estates.web.app/",
+    "cLink": "https://github.com/faria-r/LakeFront-Estates",
+    "sLink": "https://github.com/faria-r/LakeFront-Estates-Server",
+    "Technology":[
+        "ReactJS",
+        "NodeJS",
+        "ExpressJS",
+        "MongoDB"
+
+    ]
 },
-    {
-        
-        "id": "6394ab71eb91d50600dd5644",
-        "name": "Cooking Luxury",
-        "about": "User can add new services  in website.Also User can give review and update or delete their review.(developed UsingMongoDB and NodeJS).Only logged in user can give review of any services and view all the review they added on any service",
-        "image": [
-            "https://i.ibb.co/VBR02VB/Screenshot-14.png",
-            "https://i.ibb.co/F4Cz36B/Screenshot-17.png",
-            "https://i.ibb.co/LnfFTPy/Screenshot-18.png",
-            "https://i.ibb.co/K2CsWSM/Screenshot-20.png",
-            "https://i.ibb.co/N1YnWb9/Screenshot-19.png"
-        ],
-        "LiveSite": "https://farias-cooking-luxury.web.app/",
-        "ClientCode": "https://github.com/faria-r/Cooking-Luxury",
-        "ServerCode": "https://github.com/faria-r/cooking-Luxury-server-side"
-    },
-    {
-        
-        "id": "6394ab71a8517d460b7e7b9e",
-        "name": "Tech Mentors",
-        "about": "User can read blogs and download content as a pdf(developed using ReactJS).User can Login with their Google or Github account. As well as they can register using Email address (developed Using Firebase).Only Authorized user can get Premium access of tutorial contents.",
-        "image": [
-            "https://i.ibb.co/myMKmy5/Screenshot-32.png",
-            "https://i.ibb.co/wr67TX6/Screenshot-30.png",
-            "https://i.ibb.co/zbJBbX4/Screenshot-31.png",
-            "https://i.ibb.co/6txHn1Q/Screenshot-29.png",
-            "https://i.ibb.co/0B68jbn/Screenshot-28.png"
-        ],
-        "LiveSite": "https://tech-mentors-2221d.web.app/",
-        "ClientCode": "https://github.com/faria-r/Tech-Mentors-Client-Side",
-        "ServerCode": "https://github.com/faria-r/Tech-Mentors-Server-Side"
-    }
-   
+{
+    
+    "id": "6394ab71a00b2ce432b2db47",
+    "name": "Faria's Cooking Luxury",
+    "about": "Farias Cooking Luxury is a service review platform where users can login via Google account or create an account directly on the website. Here, users can add, update, and delete recipes and services they offer, along with leaving reviews that can be managed at their discretion.",
+    "image": "https://i.ibb.co/YyYc7fm/Screenshot-2024-05-03-111832.png",
+    "Link": "https://farias-cooking-luxury.web.app",
+    "cLink": "https://github.com/faria-r/Cooking-Luxury",
+    "sLink": "https://github.com/faria-r/cooking-Luxury-server-side",
+    "Technology":[
+        "ReactJS",
+        "Firebase",
+        "TailwindCSS",
+        "MongoDB"
+
+    ]
+},
+{
+    
+    "id": "6394ab71a00b2ce432b2db47",
+    "name": "Beats To Read",
+    "about": "This is a FUll-stack Book Reselling website with three different user role(Admin,Seller,Buyer).User can Buy Books only from verified seller (developed using ReactJS).User can pay through Master Card, visa Card etc.(developed using StripeJS).Admin can Delete, Verify any Seller or buyer.",
+    "image": "https://i.ibb.co/yhPhfTS/Screenshot-2024-05-03-112258.png",
+    "Link": "https://beats-to-read.web.app/",
+    "cLink": "https://github.com/faria-r/Beats-To-Read",
+    "sLink": "https://github.com/faria-r/Beats-To-Read-ServerSide",
+    "Technology":[
+        "ReactJS",
+        "NodeJS",
+        "ExpressJS",
+        "MongoDB"
+
+    ]
+}
+    
 ]

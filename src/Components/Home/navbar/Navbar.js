@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import resumefile from "../../../assets/Resume-Of-Faria-Sultana.pdf";
+import resumefile from "../../../assets/Resume.pdf";
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar bg-navy">
+      <div className="navbar bg-navy shadow-xl fixed z-10">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost text-green-600 lg:hidden">
+            <label tabIndex={0} className="btn btn-ghost text-teal lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -25,61 +25,63 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-compact text-teal dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <Link to="/">
                 {" "}
                 <li>
-                  <a className="text-xl text-green-600">Home</a>
+                  <a  href="#about" className="text-xl ">About</a>
                 </li>
               </Link>
              <li>
-                <a href="#about"  className="text-xl text-green-600">About</a>
+                <a href="#skills"  className="text-xl ">Skills</a>
               </li>
 
               <Link to='/blog'> <li>
-              <a className="text-xl text-green-600">Blog</a>
+              <a className="text-xl ">Projects</a>
             </li></Link>
               <li>
-                <a className="text-xl text-green-600">Contact</a>
+                <a className="text-xl ">Experience</a>
               </li>
+              <Link to='/blog'> <li>
+              <a className="text-xl ">Education</a>
+            </li></Link>
             </ul>
           </div>
-          {/* <a className="btn btn-ghost normal-case text-2xl ml-8 text-green-600">
-            Faria Rahman
-          </a> */}
+        
 
           <div className="clip-path-mypolygon px-6 py-2 ml-8 border-green-600 border-4 text-center">
-          <a className="text-center text-3xl font-mono font-bold  text-green-600">
+          <a className="text-center text-3xl font-mono font-bold  text-teal">
             F
           </a>
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            <Link to="/">
-              {" "}
-              <li>
-                <a className="text-xl text-green-600">Home</a>
-              </li>
-            </Link>
-           <li>
-                <a href="#about" className="text-xl text-green-600">About</a>
+          <ul className="menu text-teal menu-horizontal px-1">
+          <Link to="/">
+                {" "}
+                <li>
+                  <a  href="#about" className="text-xl ">About</a>
+                </li>
+              </Link>
+             <li>
+                <a href="#skills"  className="text-xl ">Skills</a>
               </li>
 
-           <Link to='/blog'> <li>
-              <a className="text-xl text-green-600">Blog</a>
+              <Link to='/blog'> <li>
+              <a className="text-xl ">Projects</a>
             </li></Link>
-            <li>
-              <a className="text-xl text-green-600" href="#contact">
-                Contact
-              </a>
-            </li>
+              <li>
+                <a className="text-xl ">Experience</a>
+              </li>
+              <Link to='/blog'> <li>
+              <a className="text-xl ">Education</a>
+            </li></Link>
           </ul>
         </div>
         <div className="navbar-end">
           <a href={resumefile} download={resumefile}>
-            <button className="lg:mr-16 rounded-lg btn border bg-navy text-green-600 border-green-600">
+            <button className="lg:mr-16 rounded-lg btn border bg-navy text-green-300 border-green-600">
               Resume
             </button>
           </a>
