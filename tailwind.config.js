@@ -21,6 +21,7 @@ module.exports = {
     },
     clipPath: {
       mypolygon: "polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%)",
+     mypoly: "polygon(51% 99%, 100% 59%, 100% 100%, 0 99%, 0 59%)"
   },
   },
   plugins: [require("daisyui"),

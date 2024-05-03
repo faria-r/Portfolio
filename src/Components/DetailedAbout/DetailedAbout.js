@@ -4,10 +4,7 @@ const DetailedAbout = () => {
   return (
     <div className="w-[70vw]  mx-auto lg:flex justify-between items-center">
       <div className="lg:w-[40vw] ">
-        <div className="flex items-center mb-8">
-          <h2 className="text-lightSlate text-3xl w-36">About Me</h2>
-          <div className="ml-6 w-[25vw] border-t-[1px] border-lightSlate"></div>
-        </div>
+        
         <div className="text-lightSlate">
           <p>
             Hey there! I'm Faria Sultana, a junior web developer with a passion

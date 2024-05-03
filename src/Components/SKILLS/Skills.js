@@ -6,13 +6,13 @@ import img1 from '../../assets/img/e.png'
 const Skills = () => {
   return (
     <div className="w-1/2 mx-auto border relative rounded">
-      <div className="h-auto">
+      <div className="h-auto hidden lg:block">
         <img
           className="rounded w-[100%] lg:h-[80vh]"
           src="https://i.ibb.co/MpyQrFX/bg.gif"
         />
       </div>
-      <div className="absolute lg:w-[40vw] mx-auto h-1/2 lg:my-auto top-0 bottom-0 right-0 left-0 text-center p-4 lg:p-8">
+      <div className="absolute lg:w-[40vw] mx-auto  lg:h-1/2 lg:my-auto top-0 bottom-0 right-0 left-0 text-center p-4 lg:p-8">
         <div className="grid grid-cols-2 lg:grid-cols-3 lg:px-6  items-center gap-2 my-auto  ">
           <div className="">
             <button className="btn px-4 py-0 border-green-600  ">

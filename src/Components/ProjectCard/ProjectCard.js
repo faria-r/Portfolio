@@ -29,7 +29,7 @@ const ProjectCard = ({ p }) => {
         </div>
       </div>
       <div className="lg:absolute lg:top-80 lg:left-[53%] lg:right-16 card lg:w-[40vw] lg:my-12 ">
-        <div className="text-Slate mb-4 gap-8 text-xs flex justify-around items-center mx-auto">
+        <div className="text-Slate mb-2  gap-8 text-xs flex justify-around items-center mx-auto">
           {
             p.Technology.map(t=> <span  t={t}>{t}</span> )
           }

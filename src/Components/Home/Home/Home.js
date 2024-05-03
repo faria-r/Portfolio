@@ -14,34 +14,37 @@ const Home = () => {
        <div  className='w-3/4 mx-auto mt-24'>
        <Self></Self>
        </div>
-       <div>
+       <div id='about'>
+        <Title value={'About Me'}></Title>
         <DetailedAbout></DetailedAbout>
        </div>
-       <div className='mt-16'>
+       
+       <div id='project' className='mt-36'>
+       <div >
         <Title value={'Some Things I’ve Built'}></Title>
        </div>
-       <div>
       <FeaturedProjects></FeaturedProjects>
        </div>
        <div className='mt-16'>
         <Title value={'Skills I’ve'}></Title>
        </div>
-       <div className='mt-16'>
+       <div  id='skills' className='mt-16 mb-16'>
       <Skills></Skills>
        </div>
-       <div className=' mt-48'>
-       <h2 className='text-5xl text-green-300 my-8 text-center'>Get In Touch!</h2>
+       <div id='#contact' className='mt-20'>
+     <Title value={'Get In Touch'}></Title>
        <Contact></Contact>
        </div>
 
        <div>
         <Footer></Footer>
        </div>
-       <div className='w-auto pb-4'>
-       <div className='flex justify-center'>
+       <div className='flex justify-center -mb-32 mt-8 border-teal'>
         <span className='border-r-2 border-r-green-600 px-2 text-Slate'>Copyright @ <span className='text-green-300 '>{year.getFullYear()}</span></span>
         <span className='ml-2  text-Slate'>Faria Rahman</span> 
       </div>
+       <div className='bg-teal clip-path-mypoly h-[10vh] p-28 border border-lightSlate'>
+    
        </div>
         </div>
     );

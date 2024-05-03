@@ -43,9 +43,9 @@ const Self = () => {
         </p>
       </div>
 
-      <a href="#">
+      <a href="#contact">
         <button className="mr-16 rounded-lg btn border bg-navy text-green-600 border-green-600 mt-16 mb-8">
-          Hire Me
+          Contact Me
         </button>
       </a>
     </div>
