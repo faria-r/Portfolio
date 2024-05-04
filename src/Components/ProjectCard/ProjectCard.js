@@ -1,5 +1,6 @@
 import React from "react";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const ProjectCard = ({ p }) => {
   return (
@@ -8,11 +9,11 @@ const ProjectCard = ({ p }) => {
       <div data-aos="fade-right" data-aos-anchor-placement="center-bottom"
       data-aos-duration="1000" className="card bg-Darknavy border border-teal  shadow-md shadow-lightSlate sm:w-[70vw] lg:w-[50vw]  my-16">
         <figure className="h-96">
-          <img
+         <a href={p.Link} target="_blank"><img
             src={p.image}
             className="sm:w-auto lg:w-[45vw] rounded"
             alt="project!"
-          />
+          /></a>
         </figure>
       </div>
       <div

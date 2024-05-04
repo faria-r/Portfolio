@@ -13,6 +13,7 @@ module.exports = {
         300:"#5eead4"
       },
       white:"#FFFFFF",
+      black:'#020617',
       teal:"#5eead4",
       lightSlate:"#ccd6f6",
       Slate:"#8892b0",
