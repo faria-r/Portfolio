@@ -8,7 +8,7 @@ const FeaturedProjects = () => {
         .then(res => res.json())
         .then(data => setProjects(data))
     },[])
-   
+
     return (
         <div>
             {

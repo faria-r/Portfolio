@@ -1,10 +1,9 @@
 import React from "react";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
-import { Link } from "react-router-dom";
-
-const ProjectCard = ({ p }) => {
+import styles from './styles.css'
+const ProjectCard = ({ p}) => {
   return (
-    <div className="relative mt-8 overflow-hidden w-[80vw] mx-auto"
+    <div className="custom relative mt-8 overflow-hidden w-[80vw] mx-auto"
     >
       <div data-aos="fade-right" data-aos-anchor-placement="center-bottom"
       data-aos-duration="1000" className="card bg-Darknavy border border-teal  shadow-md shadow-lightSlate sm:w-[70vw] lg:w-[50vw]  my-16">
@@ -20,7 +19,7 @@ const ProjectCard = ({ p }) => {
         data-aos="fade-left"
         data-aos-anchor-placement="center-bottom"
         data-aos-duration="2000"
-        className="lg:absolute lg:top-20 lg:left-[45%] lg:right-16 card lg:w-[45vw] lg:my-12 "
+        className=" lg:absolute lg:top-20 lg:left-[45%] lg:right-16 card lg:w-[45vw] lg:my-12 "
       >
         <div className="card-body text-Slate">
           <p className="text-2xl text-green-600 text-end font-mono font-bold">
