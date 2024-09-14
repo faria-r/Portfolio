@@ -7,6 +7,7 @@ import Title from '../../Title/Title';
 
 import FeaturedProjects from '../../FeaturedProjects/FeaturedProjects';
 import Skills from '../../SKILLS/Skills';
+import DevInfo from '../DevInfo/DevInfo';
 const Home = () => {
     const year = new Date();
     return (
@@ -30,6 +31,9 @@ const Home = () => {
        </div>
        <div  id='skills' className='mt-16 mb-16'>
       <Skills></Skills>
+       </div>
+       <div className='mt-16 mb-16'>
+     <DevInfo></DevInfo>
        </div>
        <div id='#contact' className='mt-20'>
      <Title value={'Get In Touch'}></Title>
