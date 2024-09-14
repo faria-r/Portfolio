@@ -2,7 +2,7 @@
   {
     "id": "6394ab71a00b2ce432b2db47",
     "name": "Lakefront Estates",
-    "about": "Lakefront Estates is a real estate platform. it offers seamless filtering options, empowering users to search for properties tailored to their preferences. The website also provide  email system, enabling users to communicate directly with property owners for queries or appointment requests.Admin can manage all the user and others schedules and home properties",
+    "about": "Lakefront Estates is a real estate platform. it offers seamless filtering options, empowering users to search for properties tailored to their preferences. The website also provide  email system, enabling users to communicate directly with property owners for queries or appointment requests.Admin can manage all the user and others schedules and Home properties",
     "image": "https://i.ibb.co/TWRtdrc/Screenshot-2024-05-29-231807.png",
     "Link": "https://lakefront-estates.web.app/",
     "cLink": "https://github.com/faria-r/LakeFront-Estates",
@@ -11,13 +11,13 @@
   },
   {
     "id": "6394ab71a00b2ce432b2db47",
-    "name": "Faria's Cooking Luxury",
-    "about": "Farias Cooking Luxury is a service review platform where users can login via Google account or create an account directly on the website. Here, users can add, update, and delete recipes and services they offer, along with leaving reviews that can be managed at their discretion.",
-    "image": "https://i.ibb.co/jk3fGVg/Screenshot-2024-05-29-225742.png",
-    "Link": "https://farias-cooking-luxury.web.app",
-    "cLink": "https://github.com/faria-r/Cooking-Luxury",
-    "sLink": "https://github.com/faria-r/cooking-Luxury-server-side",
-    "Technology": ["ReactJS", "Firebase", "TailwindCSS", "MongoDB"]
+    "name": "Yummly Bakes",
+    "about": "It is a Recipe Sharing platform where users can Share/Add Recipes & watch others Recipe by purchasing Recipes Using Coins.Each User Will Get Free 50 Coins At First Signup.User Can Buy More Coins Using Stripe Payment.For Seamless Contact Its provide whatsapp Contact Features With Admin.It has Also Enabled Google Login System For User",
+    "image": "https://i.ibb.co.com/P4C8PSX/Screenshot-2024-09-14-142932.png",
+    "Link": "https://yummly-bake.web.app/",
+    "cLink": "https://github.com/faria-r/YummlyBakes",
+    "sLink": "https://github.com/faria-r/YummlyBake-Server",
+    "Technology": ["ReactJS", "MongoDB", "StripeJS", "TailwindCSS"]
   },
   {
     "id": "6394ab71a00b2ce432b2db47",
